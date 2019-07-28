@@ -14,6 +14,6 @@ def solve(arr) :
 
 if __name__ == "__main__" :
     for i in range(10) :
-        t = int(input().strip())
-        array = list(map(int, input().strip().split()))
+        t = int(input())
+        array = list(map(int, input().split()))
         print("#{0} {1}".format(i+1, solve(array)))
