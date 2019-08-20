@@ -11,7 +11,7 @@ def bfs(v) :
                 queue.append(e)
                 cnt += 1
     return cnt
-
+## 입력
 V = int(input())
 E = int(input())
 graph = [ [] for _ in range(V+1)]
