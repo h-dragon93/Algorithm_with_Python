@@ -31,4 +31,5 @@ def solution(n, computers):
             tmp.append(a)
     paths = map(sorted, tmp)
     a = set(["".join(map(str, path)) for path in paths])
+    
     return len(a)
