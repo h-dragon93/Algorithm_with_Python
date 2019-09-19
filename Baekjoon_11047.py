@@ -8,4 +8,5 @@ li.sort(reverse = True)
 for i in range(len(li)) :
     count += K//li[i]
     K %= li[i]
+    
 print(count)
